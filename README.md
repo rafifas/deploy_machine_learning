@@ -23,6 +23,23 @@ To deploy the model, run the diabetes-classification-model.py first in local to 
 ![picture](https://github.com/rafifas/deploy_machine_learning/blob/master/directory_in_pythonanywhere.PNG)
 ![picture](https://github.com/rafifas/deploy_machine_learning/blob/master/pythonanywhere_files.PNG)
 
-Try the deployed model with postman. Open postman and insert your pythonanywhere URL and test your model by inputing data as following example
+Try the deployed model with postman. Open postman and insert your pythonanywhere URL and test your model by inputing data as the following example
 
-!![picture](https://github.com/rafifas/deploy_machine_learning/blob/master/postman_input_example.PNG)
+![picture](https://github.com/rafifas/deploy_machine_learning/blob/master/postman_input_example.PNG)
+
+If you want to try how the model work, you can use my url in the postman and input the following data:
+
+Url: 
+http://rafif.pythonanywhere.com/api
+
+Input example:
+{
+    "pregnancy":6,
+    "glucoes":148,
+    "bloodpres":72,
+    "skin":35,
+    "insulin":0,
+    "bmi":33.6,
+    "diabetesPedi":0.627,
+    "age":50   
+}
