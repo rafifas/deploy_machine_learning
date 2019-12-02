@@ -32,7 +32,7 @@ def predict():
     output = int(result[0])
 
     # return data
-        return jsonify(diabetes=output)
+    return jsonify(diabetes=output)
 
 if __name__ == '__main__':
     app.run(port = 5001, debug=True)
