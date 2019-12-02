@@ -17,4 +17,12 @@ request.py contains the python code to process POST request to server.
 flask_app.py contains the python code as modified server in pythonanywhere.com
 
 # deploy model in pythonanywhere.com
-I deployed machine learning model about diabetes prediction into pythonanywhere.com. 
+I the deployed machine learning model into pythonanywhere.com and test it using postman.
+To deploy the model, run the diabetes-classification-model.py first in local to get the model (log_reg_model.pkl). upload the model along with flask_app.pkl into /home/user/mysite  
+
+![picture](https://github.com/rafifas/deploy_machine_learning/blob/master/directory_in_pythonanywhere.PNG)
+![picture](https://github.com/rafifas/deploy_machine_learning/blob/master/pythonanywhere_files.PNG)
+
+Try the deployed model with postman. Open postman and insert your pythonanywhere URL and test your model by inputing data as following example
+
+!![picture](https://github.com/rafifas/deploy_machine_learning/blob/master/postman_input_example.PNG)
